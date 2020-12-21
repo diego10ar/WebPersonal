@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+.navbar-header{
+	margin-right: 20px;
+}
+.container{
+	min-height: 3000px;
+}
+
+#header{
+	font-size: 28px;
+}
+
+.redes{
+	float:left;
+	margin-right: 20px;
+}
+
+
+.navbar-brand
+{
+	font-size: 28px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin:0 auto;
+}
+.navbar-toggle {
+    z-index:3;
+}
+.container{
+	padding-top: 70px;
+}
+.clear{
+  float:clear;
+}
+

@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+.our-team-main {
+    width: 100%;
+    height: auto;
+    border-bottom: 7px #8B0000 solid;
+    background: #fff;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    transition: 0.5s;
+    margin-bottom: 28px
+}
+
+.our-team-main img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    width: 90px
+}
+
+.our-team-main h3 {
+    font-size: 22px;
+    font-weight: 700
+}
+
+
+.our-team-main p {
+	
+	font-size: 18px;
+    margin-bottom: 50px;
+}
+
+
+.team-back {
+	text-align: justify;
+ 
+	font-size: 20px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px 15px 0 15px;
+    
+    background: #fff
+}
+
+.team-front {
+	min-height: 300px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 10;
+    background: #fff;
+    
+	padding-top:40px;
+    bottom: 0px;
+    transition: all 1s ease
+}
+
+.our-team-main:hover .team-front {
+	
+    bottom: -310px;
+    transition: all 1s ease
+}
+
+.our-team-main:hover {
+
+    border-color: #FF0000;
+    transition: 0.5s
+}
+
