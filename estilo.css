@@ -35,4 +35,199 @@
 .clear{
   float:clear;
 }
+.espacio{
+	min-height: 200px;
+	 color: #d6d2d2;
+}
+.pd-progress-style1 {
+    height: 30px;
+    box-shadow: none;
+    border-radius: 0;
+    overflow: visible;
+    margin-top: 20px;
+}
 
+.pd-progress-style1+.pd-progress-style1 {
+    margin-top: 40px;
+}
+
+.pd-progress-style1 .progress-bar {
+    position: relative;
+    text-align: left;
+    line-height: 30px;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.pd-progress-style1 .pb-label {
+    position: absolute;
+    left: 5px;
+    top: -28px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.pd-progress-style1 .pb-percent {
+    position: absolute;
+    right: 10px;
+    font-weight: 500;
+    color: #fff;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+/* Progress Bar Style 2 */
+.pd-progress-style2 {
+    height: 8px;
+    box-shadow: none;
+    border-radius: 0;
+    overflow: visible;
+    margin-top: 20px;
+}
+
+.pd-progress-style2+.pd-progress-style2 {
+    margin-top: 40px;
+}
+
+.pd-progress-style2 .progress-bar {
+    position: relative;
+    text-align: left;
+    line-height: 4px;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.pd-progress-style2 .pb-label {
+    position: absolute;
+    left: 0px;
+    top: -18px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.pd-progress-style2 .pb-percent {
+    position: absolute;
+    right: 10px;
+    font-weight: 500;
+    color: #444;
+    font-size: 14px;
+    top: -17px;
+}
+
+/* Progress Bar Style 3 */
+.pd-progress-style3 {
+    height: 30px;
+    box-shadow: none;
+    border-radius: 0;
+    overflow: visible;
+    margin-top: 20px;
+}
+
+.pd-progress-style3+.pd-progress-style3 {
+    margin-top: 40px;
+}
+
+.pd-progress-style3 .progress-bar {
+    position: relative;
+    text-align: left;
+    line-height: 30px;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.pd-progress-style3 .pb-label {
+    position: absolute;
+    left: 0;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 0 12px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.pd-progress-style3 .pb-percent {
+    position: absolute;
+    right: 10px;
+    font-weight: 500;
+    color: #fff;
+    font-size: 12px;
+    line-height: 26px;
+    top: -10px;
+    background: #444;
+    padding: 0 7px;
+}
+
+/* Progress Bar Style 5 */
+.pd-progress-style4 {
+    height: 20px;
+    box-shadow: none;
+    border-radius: 0;
+    overflow: visible;
+    margin-top: 30px;
+}
+
+.pd-progress-style4+.pd-progress-style4 {
+    margin-top: 50px;
+}
+
+.pd-progress-style4 .progress-bar {
+    position: relative;
+    text-align: left;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.pd-progress-style4 .pb-label {
+    position: absolute;
+    left: 0px;
+    top: -30px;
+    color: #222;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.pd-progress-style4 .pb-percent {
+    position: absolute;
+    right: 10px;
+    font-weight: 500;
+    color: #fff;
+    font-size: 12px;
+    top: -30px;
+    background: #222;
+    padding: 3px 6px;
+    border-radius: 4px;
+}
+
+.pd-progress-style4 .pb-percent:after {
+    content: '';
+    position: absolute;
+    border: 11px solid transparent;
+    border-right-color: #222;
+    left: -19px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.columnn {
+  float: left;
+  width: 50%;
+}
+.columnn3{
+	 float: left;
+  width: 33%;
+}
+@media screen and (max-width: 600px) {
+  .columnn {
+    width: 100%;
+  }
+	.columnn3{
+		width: 100%;
+	}
+}
+.roww:after {
+  content: "";
+  display: table;
+  clear: both;
+}
